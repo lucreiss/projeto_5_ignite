@@ -21,6 +21,9 @@ jobs:
       - run: npm ci
 
       - run: npm run build
+        env:
+            TURBO_TOKEN: xC1BnfPePy37XyIuPX6AVNkg
+            TURBO_TEAM: lucreis-projects
 
       - name: Deploy storybook
         if: success()
