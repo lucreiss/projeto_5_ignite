@@ -29,3 +29,4 @@ export function ColorsGrid({ colors }: ColorsdProps) {
 
   )
 }
+
