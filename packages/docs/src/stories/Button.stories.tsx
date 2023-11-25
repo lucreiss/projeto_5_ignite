@@ -1,6 +1,6 @@
 import type { StoryObj, Meta } from "@storybook/react";
 
-import { Button, ButtonProps, ButtonWithIcon } from "@ignite-ui/react";
+import { Button, ButtonProps, ButtonWithIcon } from "@projeto_5/react";
 
 
 export default {
@@ -19,7 +19,7 @@ export default {
     },
     size: {
       options: ["sm", "md"],
-      control: "inline-radio" ,
+      control: "inline-radio",
     },
     onClick: { action: "click" },
   },

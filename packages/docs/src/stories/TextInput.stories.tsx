@@ -1,6 +1,6 @@
 import type { StoryObj, Meta } from "@storybook/react";
 
-import { Box, Text, TextInput, TextInputProps } from "@ignite-ui/react";
+import { Box, Text, TextInput, TextInputProps } from "@projeto_5/react";
 
 
 export default {
@@ -12,8 +12,8 @@ export default {
   },
   decorators: [
     (Story) => (
-      <Box as='label' css={{display:'flex', flexDirection:'column', gap: '$2'}}>
-        <Text  size='sm'>User Name</Text>
+      <Box as='label' css={{ display: 'flex', flexDirection: 'column', gap: '$2' }}>
+        <Text size='sm'>User Name</Text>
         {Story()}
       </Box>
     ),

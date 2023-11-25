@@ -1,6 +1,6 @@
 import type { StoryObj, Meta } from "@storybook/react";
 
-import { Box, Text, MultiStep, MultiStepProps } from "@ignite-ui/react";
+import { Box, Text, MultiStep, MultiStepProps } from "@projeto_5/react";
 
 
 export default {
@@ -13,7 +13,7 @@ export default {
   },
   decorators: [
     (Story) => (
-      <Box as='label' css={{display:'flex', flexDirection:'column', gap: '$2'}}>
+      <Box as='label' css={{ display: 'flex', flexDirection: 'column', gap: '$2' }}>
         {Story()}
       </Box>
     ),
