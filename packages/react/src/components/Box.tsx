@@ -4,7 +4,7 @@ import { styled } from "../styles"
 export const Box = styled('div', {
   // Reset
   boxSizing: 'border-box',
-  padding: '$4',
+  padding: '$6',
   borderRadius: '$md',
   background: '$gray800',
   border: '1px solid $gray600',

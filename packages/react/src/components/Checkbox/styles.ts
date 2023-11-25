@@ -21,7 +21,7 @@ export const CheckboxContainer = styled(Root, {
 
   cursor: 'pointer',
 
-  '&:focus': {
+  '&:focus, &[data-state="checked"]': {
     border: '2px solid $ignite300',
   },
 
