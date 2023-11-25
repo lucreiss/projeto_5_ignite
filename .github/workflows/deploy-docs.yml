@@ -24,7 +24,7 @@ jobs:
 
       - run: npm run build
         env: # usa o cache do turbo/vercel para ficar mais rápido
-            TURBO_TOKEN: xC1BnfPePy37XyIuPX6AVNkg
+            TURBO_TOKEN: ${{ secrets.VERCEL_TOKEN }}
             TURBO_TEAM: lucreis-projects 
 
       - name: Deploy storybook
