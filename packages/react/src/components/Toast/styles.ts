@@ -31,5 +31,6 @@ export const Container = styled('div', {
   span: {
     fontSize: '$sm',
     lineHeight: '$base',
+    width: '100%'
   }
 })
