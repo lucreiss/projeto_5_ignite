@@ -17,20 +17,19 @@ jobs:
         with:
           node-version: 18
           cache: 'npm'
-          cache-dependency-path: '**/package-lock.json'
+          cache-dependency-path: '**/package-lock.json' # cache npm's package-lock files, para ficar mais rápido
 
 
       - run: npm ci
 
       - run: npm run build
-        env:
+        env: # usa o cache do turbo/vercel para ficar mais rápido
             TURBO_TOKEN: xC1BnfPePy37XyIuPX6AVNkg
-            TURBO_TEAM: lucreis-projects
+            TURBO_TEAM: lucreis-projects 
 
       - name: Deploy storybook
         if: success()
         working-directory: ./packages/docs
         run: touch storybook-static/.nojekyll && npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
-        # run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
         env:
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
