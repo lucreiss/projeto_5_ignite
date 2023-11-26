@@ -1,5 +1,11 @@
 # @projeto_5/react
 
+## 2.1.2
+
+### Patch Changes
+
+- Update sizes button
+
 ## 2.1.1
 
 ### Patch Changes
