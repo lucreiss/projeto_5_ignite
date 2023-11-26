@@ -16,5 +16,6 @@ export const colors = {
   ignite700: '#015F43',
   ignite900: '#00291D',
 
+  atention: '#ffa90a',
   error: '#f75a68',
 } as const;
