@@ -1,5 +1,11 @@
 # @projeto_5/react
 
+## 2.1.3
+
+### Patch Changes
+
+- Error correction
+
 ## 2.1.2
 
 ### Patch Changes
