@@ -1,5 +1,11 @@
 # @projeto_5/react
 
+## 2.1.4
+
+### Patch Changes
+
+- Colors update
+
 ## 2.1.3
 
 ### Patch Changes
