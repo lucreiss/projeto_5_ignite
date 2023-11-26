@@ -1,5 +1,11 @@
 # @projeto_5/tokens
 
+## 2.1.2
+
+### Patch Changes
+
+- Summary 123
+
 ## 2.1.1
 
 ### Patch Changes
