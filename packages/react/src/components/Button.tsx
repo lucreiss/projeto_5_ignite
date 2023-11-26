@@ -79,11 +79,11 @@ export const Button = styled('button', {
 
     size: {
       sm: {
-        height: 38,
+        padding: '$2 $3',
       },
 
       md: {
-        height: 46,
+        padding: '$3 $4',
       }
     }
   },
