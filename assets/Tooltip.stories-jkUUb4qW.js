@@ -1,0 +1,2 @@
+import{T as s}from"./index-_hGKxm3B.js";import"./index-u1P7CuzO.js";import"./_commonjsHelpers-4gQjN7DL.js";import"./jsx-runtime-8_VK5Bf-.js";import"./extends-dGVwEr9R.js";const d={title:"Notification/Tooltip",component:s,args:{disabled:!1},decorators:[]},o={};var r,t,e;o.parameters={...o.parameters,docs:{...(r=o.parameters)==null?void 0:r.docs,source:{originalSource:"{}",...(e=(t=o.parameters)==null?void 0:t.docs)==null?void 0:e.source}}};const l=["Primary"];export{o as Primary,l as __namedExportsOrder,d as default};
+//# sourceMappingURL=Tooltip.stories-jkUUb4qW.js.map

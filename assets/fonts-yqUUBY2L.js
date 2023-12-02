@@ -1,0 +1,4 @@
+import{j as t}from"./jsx-runtime-8_VK5Bf-.js";import{M as e}from"./chunk-HLWAVYOI-0UozuN7-.js";import{T as r}from"./TokensGrid-F8yfr2No.js";import{f as m}from"./index-bgq_xy2M.js";import{u as s}from"./index-mi2r7dmn.js";import"./index-u1P7CuzO.js";import"./_commonjsHelpers-4gQjN7DL.js";import"./iframe-iFg4gdhY.js";import"../sb-preview/runtime.js";import"./index-7wOSzdoF.js";import"./chunk-E56DBAEL-hiaKklXZ.js";import"./index-ogXoivrg.js";import"./extends-dGVwEr9R.js";import"./index-PPLHz8o0.js";function i(o){const n=Object.assign({h1:"h1"},s(),o.components);return t.jsxs(t.Fragment,{children:[t.jsx(e,{title:"Tokens/Font Families"}),`
+`,t.jsx(n.h1,{id:"font-families",children:"Font Families"}),`
+`,t.jsx(r,{tokens:m})]})}function k(o={}){const{wrapper:n}=Object.assign({},s(),o.components);return n?t.jsx(n,Object.assign({},o,{children:t.jsx(i,o)})):i(o)}export{k as default};
+//# sourceMappingURL=fonts-yqUUBY2L.js.map
