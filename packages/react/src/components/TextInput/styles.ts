@@ -30,7 +30,7 @@ export const TextInputContainer = styled('div', {
   },
 
   defaultVariants: {
-    size: 'md'
+    size_: 'md'
   }
 })
 
