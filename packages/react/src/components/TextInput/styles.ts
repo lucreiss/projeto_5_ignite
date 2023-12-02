@@ -10,7 +10,7 @@ export const TextInputContainer = styled('div', {
   alignItems: "center",
 
   variants: {
-    size: {
+    size_: {
       sm: {
         padding: '$2 $3',
       },

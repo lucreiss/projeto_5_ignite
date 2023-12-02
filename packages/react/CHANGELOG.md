@@ -1,5 +1,11 @@
 # @projeto_5/react
 
+## 3.0.0
+
+### Major Changes
+
+- Size\_
+
 ## 2.1.4
 
 ### Patch Changes
